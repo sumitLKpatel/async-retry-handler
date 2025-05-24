@@ -1,0 +1,32 @@
+{
+  "name": "async-retry-handler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sumitLKpatel/async-retry-handler.git"
+  },
+  "keywords": [
+    "retry",
+    "nodejs",
+    "async",
+    "promise",
+    "timeout",
+    "jitter",
+    "error-handling",
+    "retry-utility",
+    "network-retry",
+    "promise-retry"
+  ],
+  "author": "Sumit LK Patel",
+  "license": "MIT",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/sumitLKpatel/async-retry-handler/issues"
+  },
+  "homepage": "https://github.com/sumitLKpatel/async-retry-handler#readme"
+}
