@@ -1,5 +1,5 @@
 {
-  "name": "async-retry-handler",
+  "name": "async-retry-pro",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sumitLKpatel/async-retry-handler.git"
+    "url": "git+https://github.com/sumitLKpatel/async-retry-pro.git"
   },
   "keywords": [
     "retry",
@@ -26,7 +26,7 @@
   "license": "MIT",
   "type": "commonjs",
   "bugs": {
-    "url": "https://github.com/sumitLKpatel/async-retry-handler/issues"
+    "url": "https://github.com/sumitLKpatel/async-retry-pro/issues"
   },
-  "homepage": "https://github.com/sumitLKpatel/async-retry-handler#readme"
+  "homepage": "https://github.com/sumitLKpatel/async-retry-pro#readme"
 }

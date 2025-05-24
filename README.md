@@ -1,4 +1,4 @@
-# 🔁 async-retry-handler
+# 🔁 async-retry-pro
 
 A powerful utility for retrying async functions with support for exponential backoff, jitter, per-attempt timeouts, and custom retry logic.
 
@@ -12,7 +12,7 @@ A powerful utility for retrying async functions with support for exponential bac
 ## 📦 Installation
 
 ```bash
-npm install async-retry-handler
+npm install async-retry-pro
 ```
 
 ## ✨ Features 
@@ -26,7 +26,7 @@ npm install async-retry-handler
 ## 🚀 Usage
 
 ```javascript
-const { retryAsync } = require('retry-async-helper');
+const { retryAsync } = require('async-retry-pro');
 
 async function fetchData() {
   // Your unreliable async operation
@@ -63,7 +63,7 @@ Retry failed HTTP requests with status-based retry logic
 
 ```javascript
 const axios = require('axios');
-const { retryAsync } = require('retry-async-helper');
+const { retryAsync } = require('async-retry-pro');
 
 /**
  * Fetches user data with automatic retry on server errors
@@ -106,7 +106,7 @@ fetchUserWithRetry('123')
 ## 💾 Database Example
 
 ```javascript
-const { retryAsync } = require('retry-async-helper');
+const { retryAsync } = require('async-retry-pro');
 const { MongoClient } = require('mongodb');
 
 const client = new MongoClient(process.env.DB_URI);
@@ -167,7 +167,7 @@ resilientQuery({ status: 'active' })
 
 ## ✅ Conclusion
 
-`async-retry-handler` simplifies the complexity of handling unreliable async operations. Whether you're dealing with flaky HTTP APIs, intermittent database connections, or unstable external services, this utility gives you full control with smart retry logic.
+`async-retry-pro` simplifies the complexity of handling unreliable async operations. Whether you're dealing with flaky HTTP APIs, intermittent database connections, or unstable external services, this utility gives you full control with smart retry logic.
 
 Its pluggable hooks, exponential backoff, jitter, and error-aware retry logic make it a powerful yet lightweight tool for production-ready apps.
 
@@ -175,5 +175,5 @@ Its pluggable hooks, exponential backoff, jitter, and error-aware retry logic ma
 
 ## 📄 License
 
-`async-retry-handler` is released under the [MIT License](http://opensource.org/licenses/MIT).
+`async-retry-pro` is released under the [MIT License](http://opensource.org/licenses/MIT).
 Copyright (c) 2025 [@sumitLKpatel](https://github.com/sumitLKpatel)
